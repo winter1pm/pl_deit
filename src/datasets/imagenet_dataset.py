@@ -115,7 +115,6 @@ class ImagenetDataModule(pl.LightningDataModule):
         self.batch_size = batch_size
         self.num_workers = num_workers
         self.pin_mem = pin_mem
-        print(f'ImagenetDataModule initialized at {time.time()}')
 
     @property
     def num_classes(self) -> int:

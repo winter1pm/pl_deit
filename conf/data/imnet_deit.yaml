@@ -1,0 +1,15 @@
+# @package _group_
+_target_: src.datasets.imagenet_dataset.ImagenetDataModule
+data_dir: /home/dongguo/FastData/ImageNet/
+batch_size: 64
+image_size: 224
+nb_classes: 1000
+color_jitter: 0.4
+aa: rand-m9-mstd0.5-inc1
+train_interpolation: bicubic
+reprob: 0.25
+remode: pixel
+recount: 1
+repeated_aug: True
+num_workers: 10
+pin_mem: True

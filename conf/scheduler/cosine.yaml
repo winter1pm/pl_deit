@@ -1,0 +1,12 @@
+# @package _group_
+sched: "cosine"
+lr_noise: null
+lr_noise_pct: 0.67
+lr_noise_std: 1.0
+warmup_lr: 1e-06
+min_lr: 1e-05
+decay_rate: 0.1
+epochs: 300
+decay_epochs: 30
+warmup_epochs: 5
+cooldown_epochs: 10

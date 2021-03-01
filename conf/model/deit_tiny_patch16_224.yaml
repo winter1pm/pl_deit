@@ -1,5 +1,4 @@
 # @package _group_
-_target_: src.models.deit_models.DeiT
 model_arch: deit_tiny_patch16_224
 mixup: 0.8
 cutmix: 1.0
@@ -14,24 +13,8 @@ drop_path: 0.1
 model_ema: False
 model_ema_decay: 0.99996
 model_ema_force_cpu: False
-finetune: False
 distillation_type: "none"
 distillation_alpha: 0.5
 distillation_tau: 1.0
 teacher_model: regnety_160
 teacher_path: ""
-opt: adamw
-momentum: 0.9
-weight_decay: 0.05
-sched: "cosine"
-lr: 0.0005
-lr_noise: null
-lr_noise_pct: 0.67
-lr_noise_std: 1.0
-warmup_lr: 1e-06
-min_lr: 1e-05
-decay_epochs: 30
-warmup_epochs: 5
-cooldown_epochs: 10
-patience_epochs: 10
-decay_rate: 0.1
