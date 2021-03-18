@@ -1,0 +1,25 @@
+train:
+  name: koski
+  split: train
+  koski_config: 
+    filter: "where id > 10"
+    partition_column: handle
+    reader:
+      oncall: groupx
+      table: synthetic_table
+      column:
+      - images
+      - handle
+      - label
+      batch_size: 32
+  transforms:
+  - name: default_augmentation
+    config:
+      color_space: RGB
+      single_label: true
+    transforms:
+    - name: sub_augmentation
+      image_size: 224
+      color_jitter: 0.4
+
+          
