@@ -1,0 +1,12 @@
+wget https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-regnet/regnety_040-f0d569f9.pth
+wget https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-regnet/regnety_080-e7f3eb93.pth
+wget https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-regnet/regnety_120-721ba79a.pth
+wget https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-regnet/regnety_160-d64013cd.pth
+wget https://dl.fbaipublicfiles.com/deit/deit_tiny_patch16_224-a1311bcf.pth
+wget https://dl.fbaipublicfiles.com/deit/deit_tiny_distilled_patch16_224-b40b3cf7.pth
+wget https://dl.fbaipublicfiles.com/deit/deit_small_patch16_224-cd65a155.pth
+wget https://dl.fbaipublicfiles.com/deit/deit_small_distilled_patch16_224-649709d9.pth
+wget https://dl.fbaipublicfiles.com/deit/deit_base_patch16_224-b5f2ef4d.pth
+wget https://dl.fbaipublicfiles.com/deit/deit_base_distilled_patch16_224-df68dfff.pth
+wget https://dl.fbaipublicfiles.com/deit/deit_base_patch16_384-8de9b5d1.pth
+wget https://dl.fbaipublicfiles.com/deit/deit_base_distilled_patch16_384-d0272ac0.pth

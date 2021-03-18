@@ -1,0 +1,9 @@
+defaults:
+  - ckpts: local_storage
+  - dataset: imnet_deit
+  - logger: tblogger
+  - model: deit_tiny_distilled_patch16_224
+  - optim: adamw
+  - scheduler: cosine
+  - trainer: gpus_trainer
+  
