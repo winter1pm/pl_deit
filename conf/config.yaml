@@ -1,5 +1,0 @@
-defaults:
-  - datamodule: imnet_deit
-  - trainer: default_trainer
-  - logger: tblogger
-  - model: deit_tiny_patch16_224

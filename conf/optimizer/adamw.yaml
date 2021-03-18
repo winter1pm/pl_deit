@@ -1,7 +1,0 @@
-# @package _group_
-opt: adamw
-lr: 0.0005
-opt_eps: 1e-8
-weight_decay: 0.05
-opt_betas: null 
-momentum: null
